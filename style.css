@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* display: flex;  */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    width: 100vw;
+    background-image: url('https://img.freepik.com/free-vector/world-map-isolated_98292-4295.jpg?w=2000');
+}
+
+.header{
+    padding-top: 18px;
+    height: 40px;
+    width: auto;
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgb(180, 180, 129);
+}
+
+.button{
+    border-color: aqua;
+    margin: 3px;
+}
+
+.card{
+    height: 100%;
+    width: 100vw;
+    padding: 14px;
+    
+    display: flex;
+    /* flex-direction: row; */
+    box-sizing: border-box;
+    /* border: 1px solid blue; */
+    flex-wrap: wrap;
+}
+
+.country-container {
+    height: 400px;
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 13px;
+}
+
+.country-info {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+}
+
+.flags {
+    height: 120px;
+    width: 160px;
+}
